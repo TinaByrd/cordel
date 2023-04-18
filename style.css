@@ -50,6 +50,9 @@ section {
     font-family: var(--fonte3);
     font-size: 3vw;
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -57,11 +60,24 @@ section.normal {
 section.imagem {
     background-color: rgb(59, 58, 58);
     color: white;
+    box-shadow: inset 11px 11px 13px 0px rgba(0, 0, 0, 0.432);
+    background-attachment: fixed;
+}
+section#img01 {
+    background-image: url(imagens/joaninha.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url(imagens/cartas.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 0, 0.336);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 footer {
     background-color: black;
